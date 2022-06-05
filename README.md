@@ -1,0 +1,1 @@
+This is a "for fun" repository. Press any key to begin gravity simulation.

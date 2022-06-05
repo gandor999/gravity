@@ -1,0 +1,2 @@
+- was able to figure out importing and exporting errors
+- try to apply practices from clean code book
