@@ -9,6 +9,7 @@ const frameRate = 1 / 60; // 1 second is 60 frames
 const ballMass = 0;
 
 const windowInnerHeight = window.innerHeight;
+const windowInnerWidth = window.innerWidth;
 
 export {
   simulateMeters,
@@ -16,5 +17,6 @@ export {
   gravity,
   frameRate,
   windowInnerHeight,
+  windowInnerWidth,
   ballMass,
 };
