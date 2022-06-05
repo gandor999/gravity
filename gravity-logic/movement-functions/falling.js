@@ -14,15 +14,12 @@ const falling = (ball) => {
     ) {
       gravityIsLooping = false;
       clearInterval(loopGravity);
-    } else {
-      const loopVelocity = setInterval(() => {
-        if (gravityIsLooping == false) {
-          clearInterval(loopVelocity);
-        } else {
-          ball.style.top = parseFloat(ball.style.top) + gravity + "px";
-        }
-      }, frameRate);
     }
+    const loopVelocity = setInterval(() => {
+      gravityIsLooping
+        ? (ball.style.top = parseFloat(ball.style.top) + gravity + "px")
+        : clearInterval(loopVelocity);
+    }, frameRate);
   }, frameRate);
 };
 

@@ -1,4 +1,4 @@
-import { moveRight } from "./gravity-logic/movement-functions/move-right.js";
+import { moveRight } from "./gravity-logic/movement-functions/moveRight.js";
 import { falling } from "./gravity-logic/movement-functions/falling.js";
 
 const ball = document.querySelector("#ball");
